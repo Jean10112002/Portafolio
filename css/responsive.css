@@ -1,0 +1,134 @@
+@media screen and (max-width:750px){
+    
+    .nav__burguer{
+        display: block;
+    }
+    .nav__burguer i{
+        font-size: 2em;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+    }
+    
+    nav{
+        position: initial;
+    }
+    .nav__links{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+        position: absolute;
+        top: 6em;
+        right: 2em;
+        z-index: 200;
+        background-color: white;
+        border-radius: 2em;
+        transition: .5s ease-in all;
+        clip-path: inset(0 0 100% 0);
+
+    }
+    .nav__links a{
+        color: rgb(0, 0, 0);
+        font-size: 1.2em;
+    }
+    .menudos{
+        transition: .5s ease-in all;
+        clip-path: inset(0 0 0 0);
+
+    }
+    .header__hero{
+        width: 70%;
+        margin: 0 auto;
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap:wrap ;
+        align-items: center;
+    }
+    .hero__text h1{
+        font-size: 1.5em;
+    }
+    .hero__text h3{
+        font-size: 2em;
+    }
+    .hero__text h2{
+        font-size: 1.5em;
+    }
+    .section__about{
+        margin-top: 4em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap:wrap ;
+    }
+    .about__info {
+        width: 100%;
+    }
+    
+    .section__skills{
+        width: 100%;
+    }
+    .section__proyects{
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+    }
+    .tecnologies__proyect img{
+        width: 20%;
+    }
+    .footer__links{
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 2em;
+    }
+}
+@media screen and (max-width:550px){
+   
+    .container{
+        width: 90%;
+    }
+    .hero__img {
+        width: 100%;
+    }
+    .hero__img img {
+        display: block;
+        margin: 0 auto;
+        width: 60%;
+    }
+    .hero__text{
+        width: 100%;
+        padding: .2em;
+       
+    }
+    .skills__description__datos{
+        width:108%;
+        margin-bottom: 2em;
+    }
+  
+    .section__skills{
+        width: 100%;
+    }
+    .section__skills img{
+        width: 26%;
+        margin: 1em;
+    }
+    .skills__description{
+        grid-template-columns: 1fr 
+    }
+    
+    .skills__description__datos span{
+        font-size: 1.4em;
+        color: black;
+    }
+    .section__proyects{
+        grid-template-columns: 1fr;
+        gap: 1em;
+    }
+    .tecnologies__proyect img{
+        width: 15%;
+    }
+    .footer__links{
+        width: 70%;
+    }
+}
