@@ -103,8 +103,12 @@ nav{
     overflow: hidden;
     font-size: 3em;
 }
-.hero__text h2{
-    text-align: center;
+
+.hero__type{
+    width: 88%;
+    margin: 0 auto;
+}
+.hero__type span{
     overflow: hidden;
     color: white;
     font-size: 2.5em;

@@ -12,3 +12,11 @@ boton.addEventListener("click",e=>{
     }
     nav.classList.toggle('menudos')
 })
+ let = new Typed('.typed-cursor', {
+    strings: [
+        "Front end developer"
+    ],
+    typeSpeed:60,
+    backSpeed:60,
+    loop:true
+  });
