@@ -56,6 +56,10 @@
     .hero__text span{
         font-size: 1.2em;
     }
+    
+.hero__type{
+    width: 100%;
+}
     .section__about{
         margin-top: 4em;
         display: flex;
