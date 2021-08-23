@@ -58,7 +58,10 @@
     }
     
 .hero__type{
-    width: 100%;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.5em;
 }
     .section__about{
         margin-top: 4em;
