@@ -14,7 +14,7 @@ boton.addEventListener("click",e=>{
 })
  let = new Typed('.typed-cursor', {
     strings: [
-        "Front end developer"
+        "Desarrollador Web"
     ],
     typeSpeed:60,
     backSpeed:60,

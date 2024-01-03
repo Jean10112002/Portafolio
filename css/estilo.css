@@ -171,9 +171,7 @@ nav{
     animation: rotacion-iconos 7s infinite linear;
     
 }
-.skills__img img:nth-child(7){
-    animation: rotacion-react 10s infinite linear;
-}
+
 @keyframes rotacion-react {
     50%{
         transform: rotate(240deg);
