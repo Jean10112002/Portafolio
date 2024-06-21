@@ -171,6 +171,12 @@ nav{
     animation: rotacion-iconos 7s infinite linear;
     
 }
+.target-text-justify{
+    text-align: justify;
+}
+.target-text-justify>div{
+    color:#81FF0A;
+}
 
 @keyframes rotacion-react {
     50%{
