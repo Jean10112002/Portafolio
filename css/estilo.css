@@ -80,8 +80,8 @@ nav{
 }
 .hero__img img{
     width: 80%;
-    border-radius: 20em;
-
+    border-radius:50%;
+    object-fit: cover;
 }
 .hero__text{
     border: 6px solid rgb(255, 255, 255);
